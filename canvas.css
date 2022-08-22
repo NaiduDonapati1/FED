@@ -1,0 +1,28 @@
+div{
+	width:25px;
+	height:25px;
+}
+.bisque{
+	background-color:bisque;
+      animation:move1 1s infinite;
+}
+.orange{
+	background-color:orange;
+      animation:move2 1s infinite;
+}
+.brown{
+	background-color:brown;
+      animation:move3 1s infinite;
+}
+@keyframes move1{
+from{background-color:bisque;}
+to{background-color:blue;}
+}
+@keyframes move2{
+from{background-color:orange;}
+to{background-color:red;}
+}
+@keyframes move3{
+from{background-color:brown;}
+to{background-color:green;}
+}
